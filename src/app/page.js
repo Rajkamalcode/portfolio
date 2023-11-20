@@ -28,7 +28,7 @@ export default function Home() {
 
                 </li>
                 <li>
-                  <a className='bg-cyan-600 text-white px-4 py-2 rounded-md ml-8' href='#'>Resume</a>
+                  <a className='bg-cyan-600 text-white px-4 py-2 rounded-md ml-8' href='https://www.linkedin.com/in/rajkamal-srinivasan-591317290/'>linkedin</a>
                 </li>
               </ul>
             </nav>
@@ -44,8 +44,12 @@ export default function Home() {
               </p>
             </div>
             <div className='text-5xl flex justify-center gap-8 py-3 text-gray-600'>
+            <a href="https://www.linkedin.com/in/rajkamal-srinivasan-591317290/" target="_blank" rel="noopener noreferrer">
               <AiFillLinkedin />
+            </a>
+            <a href="https://www.youtube.com/@MrSniteTamil/videos" target="_blank" rel="noopener noreferrer">
               <AiFillYoutube />
+            </a>
             </div>
             <div className='relative mx-auto rounded-full w-80 h-80'>
                 <Image
